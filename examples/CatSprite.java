@@ -1,19 +1,15 @@
 import eu.barkmin.processing.scratch.*;
-import processing.core.*;
 
-
-public class CatSprite extends ScratchSprite implements PObject
+public class CatSprite extends ScratchSprite
 {
     
     public CatSprite()
     {
-       super("cat", "sprites/cat.png");
+       this.addCostume("cat", "sprites/cat.png");
        this.setOnEdgeBounce(true);
     }
 
-    public void draw(PApplet pApplet)
-    {
-        super.draw();
+    public void run() {
         this.move(2);
     }
 }
