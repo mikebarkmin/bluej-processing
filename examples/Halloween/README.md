@@ -10,4 +10,4 @@ Corresponding [Scratch Project](https://scratch.mit.edu/projects/338613208/)
 * Call the setAnimationInterval method of the Ghost object with 50
 * Enjoy :running:
 
-![Halloween Example](../.github/halloween.gif)
+![Halloween Example](https://github.com/mikebarkmin/bluej-processing/raw/master/.github/halloween.gif)
