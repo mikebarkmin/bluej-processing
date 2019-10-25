@@ -11,3 +11,17 @@ Corresponding [Scratch Project](https://scratch.mit.edu/projects/338613208/)
 * Enjoy :running:
 
 ![Halloween Example](../.github/halloween.gif)
+
+## Comparision
+
+### Ghost
+
+![Ghost code](.github/ghost.png)
+
+### Pumpkin
+
+![Pumpkin code](.github/pumpkin.png)
+
+### House
+
+![House code](.github/house.png)
