@@ -12,7 +12,7 @@ Corresponding [Scratch Project](https://scratch.mit.edu/projects/338613208/)
 
 ![Halloween Example](https://github.com/mikebarkmin/bluej-processing/raw/master/.github/halloween.gif)
 
-## Comparision
+## Comparison
 
 ### Ghost
 
