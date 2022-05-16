@@ -2,7 +2,7 @@ import eu.barkmin.processing.scratch.*;
 
 public class CatSketch extends BlueJPApplet
 {    
-    ScratchStage stage;
+    public ScratchStage stage;
     
     public void settings() {
         size(800, 600);
