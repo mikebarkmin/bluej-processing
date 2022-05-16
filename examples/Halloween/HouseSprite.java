@@ -5,7 +5,7 @@ public class HouseSprite extends ScratchSprite
     public HouseSprite() {
         this.addCostume("on", "sprites/castle_on.png");
         this.addCostume("off", "sprites/castle_off.png");
-        this.addSound("door", "sounds/door.mp3");
+        this.addSound("door", "sounds/door.wav");
         this.setSize(70);
     }
     

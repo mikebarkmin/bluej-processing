@@ -19,7 +19,7 @@ public class HalloweenSketch extends BlueJPApplet
         ScratchStage.init(this, false);
         stage = ScratchStage.getInstance();
         stage.addBackdrop("bg", "sprites/background.jpg");
-        stage.addSound("bg", "sounds/background.mp3");
+        stage.addSound("bg", "sounds/background.wav");
         house = new HouseSprite();
         stage.addSprite(house);
         stage.setColor(0);

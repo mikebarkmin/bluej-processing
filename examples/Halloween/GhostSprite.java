@@ -6,7 +6,7 @@ public class GhostSprite extends ScratchAnimatedSprite {
     
     public GhostSprite() {
         this.addAnimation("idle", "sprites/ghost/ghost_%02d.png", 10);
-        this.addSound("laugh", "sounds/ghost.mp3");
+        this.addSound("laugh", "sounds/ghost.wav");
         this.setSize(70);
     }
     
