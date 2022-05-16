@@ -43,3 +43,16 @@ Corresponding [Scratch Project](https://scratch.mit.edu/projects/338613208/)
 * Enjoy :running:
 
 ![Halloween Example](.github/halloween.gif)
+
+### Jumpy
+
+* Additional Processing Libraries: Scratch
+
+No corresponding Scratch project
+
+* Jump on top of the monsters.
+* How long can you survive?
+* Control with right and left arrow keys.
+* Restart with r.
+
+![Jumpy Example](.github/jumpy.gif)
