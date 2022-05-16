@@ -7,23 +7,22 @@ public class Jumpy extends BlueJPApplet
     private int level;
 
     public void settings() {
-        size(800, 1000);
+        size(800, 800);
     }
 
     public void setup() {
         ScratchStage.init(this);
         stage = ScratchStage.getInstance();
-        
+        player = new Player();
+        stage.addSprite(player);
         play();
     }
 
     private void play() {
         level = 1;
         
-        player = new Player();
         player.setPosition(width / 2, height - 40);
-        stage.addSprite(player);
-
+        
         generatePlatforms();
         generateEnemies();
     }
