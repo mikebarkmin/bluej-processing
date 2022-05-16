@@ -51,11 +51,14 @@ public class Jumpy extends BlueJPApplet
     private void generateEnemies() {
         stage.removeSprites(Enemy.class);
         for (int i = 0; i < level; i++) {
-            int e = Math.round(random(0, 2));
+            int e = Math.round(random(0, 3));
             Enemy enemy = null;
             switch (e) {
                 case 0:
                     enemy = new Daisy();
+                    break;
+                case 1:
+                    enemy = new Frank();
                     break;
                 default:
                     enemy = new Bernd();
