@@ -9,7 +9,6 @@ import java.util.Collections;
 
 public abstract class BlueJPApplet extends PApplet
 {
-    private List<PObject> objects = new ArrayList<>();
     private boolean isRunning = false;
 
     /**
@@ -34,60 +33,8 @@ public abstract class BlueJPApplet extends PApplet
      */
     public abstract void setup();
 
-    /**
-     * Called directly after <b>setup()</b> and continuously calls the draw methods of all 
-     * objects added to the applet until the program is stopped or
-     * <b>pauseSketch()</b> is called. The <b>draw()</b> function is called
-     * automatically and should never be called explicitly. It should always be
-     * controlled with <b>resumeSketch()</b>, <b>pauseSketch()</b> and <b>redrawSketch()</b>.
-     */
-    public void draw() {
-        for(PObject object : objects) {
-            object.draw(this);
-        }
-    }
-
-    /**
-     * Adds an object to the sketch.
-     */
-    public void addObject(PObject object) {
-        objects.add(object);
-    }
-
-    /**
-     * Removes an object from the sketch.
-     */
-    public void removeObject(PObject object) {
-        objects.remove(object);
-    }
-
-    /**
-     * Lowers an object.
-     */
-    public void lowerObject(PObject object) {
-        int index = objects.indexOf(object);
-        if (index > 0) { 
-            Collections.swap(objects, index, index-1);
-        }
-    }
-
-    /**
-     * Raises an object.
-     */
-    public void raiseObject(PObject object) {
-        int index = objects.indexOf(object);
-        if (index > -1 && index < objects.size() - 1) { 
-            Collections.swap(objects, index+1, index);
-        }  
-    }
-
-    /**
-     * Get all Objects in the sketch.
-     */
-    public List<PObject> getObjects() {
-        return objects;
-    }
-
+    public void draw() {}
+    
     /**
      * Pauses the sketch.
      */

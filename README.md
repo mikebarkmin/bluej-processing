@@ -2,20 +2,19 @@
 
 ## Installation
 
-* Copy processing, gluegen and jogl libraries into a +libs folder or copy them to the bluej userlibs folder (see [How do I use custom class libraries](https://www.bluej.org/faq.html))
-* Copy BlueJPApplet and PObject into your project
+* Download the suitable libraries for your operating system: https://github.com/mikebarkmin/bluej-processing/releases
+* Copy the extracted libraries into a +libs folder or copy them to the bluej userlibs folder (see [How do I use custom class libraries](https://www.bluej.org/faq.html))
+* Copy BlueJPApplet into your project
 * If you want to use additional processsing libraries copy them also into the +libs folder
 
 ## Usage
 
 * Every Processing Sketch should extend BlueJPApplet
-* Every Object you want to place on the Processing Sketch should implement PObject
-* To add an PObject to the sketch call addObject
 
 ## Examples
 * Download the examples folder
 
-### Cat 
+### Cat
 
 * Additional Processing Libraries: Scratch
 
